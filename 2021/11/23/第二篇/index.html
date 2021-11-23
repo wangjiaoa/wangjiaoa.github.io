@@ -128,68 +128,11 @@
 
         <div id="main" >
             <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >hexo博客部署</h2></a>
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >第二篇</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                <h2 id="hexo博客部署步骤—推到github端"><a href="#hexo博客部署步骤—推到github端" class="headerlink" title="hexo博客部署步骤—推到github端"></a>hexo博客部署步骤—推到github端</h2><ul>
-<li><p>先在本地创建一个文件夹（路径随意），进入此文件夹下，打开cmd命令行模式，以下的所有操作均在此命令行下———-&gt;<a target="_blank" rel="noopener" href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html%E5%8F%82%E8%80%83%E6%9C%AC%E7%AF%87%E5%8D%9A%E5%AE%A2">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html参考本篇博客</a></p>
-</li>
-<li><p>安装Nodejs</p>
-<ul>
-<li>node -v #查看node版本</li>
-<li>npm -v    #查看npm版本</li>
-</ul>
-</li>
-<li><p>安装淘宝的cnpm 管理器</p>
-<ul>
-<li>npm install -g cnpm –registry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>    </li>
-<li>cnpm -v    #查看cnpm版本</li>
-</ul>
-</li>
-<li><p>安装hexo框架</p>
-<ul>
-<li>cnpm install -g hexo-cli    </li>
-<li>hexo -v    #查看hexo版本</li>
-<li>hexo init #生成博客 初始化博客</li>
-</ul>
-</li>
-<li><p>hexo操作</p>
-<ul>
-<li>hexo s    #启动本地博客服务</li>
-<li>localhost:4000    #本地访问地址</li>
-<li>hexo n 我的第一篇文章  #创建新的文章 </li>
-<li>hexo clean #清理</li>
-<li>hexo g #生成</li>
-</ul>
-</li>
-<li><p>本地博客推到github上</p>
-<ul>
-<li><p>Github创建一个新的仓库 wangjiaoa.github.io</p>
-<p><img src="C:/Users/wangjiao/AppData/Roaming/Typora/typora-user-images/image-20210706110118822.png" alt="image-20210706110118822"></p>
-</li>
-<li><p>cnpm install –save hexo-deployer-git #在新建的目录下安装git部署插件</p>
-</li>
-<li><p>配置_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">	## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">	deploy:</span><br><span class="line">  		type: git</span><br><span class="line"> 		repo: https://github.com/YourGithubName/YourGithubName.github.io.git</span><br><span class="line"> 		#repo:https://github.com/wangjiaoa/wangjiaoa.github.io.git</span><br><span class="line">  		branch: master</span><br></pre></td></tr></table></figure></li>
-<li><p>hexo d #部署到Github仓库里</p>
-</li>
-<li><p>浏览器访问wangjiaoa.github.io  #访问这个地址可以查看博客</p>
-</li>
-</ul>
-</li>
-<li><p>更换主题</p>
-<ul>
-<li>git clone <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia  #下载yilia主题到本地</li>
-<li>#修改hexo根目录下的 _config.yml 文件 ： theme: yilia</li>
-<li>hexo c    #清理一下</li>
-<li>hexo g    #生成</li>
-<li>hexo d    #部署到远程Github仓库</li>
-<li>浏览器访问wangjiaoa.github.io  #访问这个地址可以查看博客</li>
-</ul>
-</li>
-</ul>
-
+                
             </div>
 
             <!-- Post Comments -->
@@ -251,8 +194,8 @@ $('.btn_click_load').click(function() {
 -->
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://example.com/2021/07/06/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://example.com/2021/07/06/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://example.com/2021/11/23/%E7%AC%AC%E4%BA%8C%E7%AF%87/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2021/11/23/%E7%AC%AC%E4%BA%8C%E7%AF%87/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 
